@@ -26,9 +26,6 @@
 						</a>
 
 					</div>
-					<div class="ml-10 space-x-4">
-						<a href="https://trigodev.com/contact-us" class="inline-block bg-white py-2 px-4 rounded-md text-base font-medium text-grey hover:bg-orange">Get in touch</a>
-					</div>
 				</div>
 
 			</nav>
@@ -36,7 +33,7 @@
 
 		<div class="h-full flex flex-col justify-center py-12 sm:px-6 lg:px-8">
 			<div class="sm:mx-auto sm:w-full sm:max-w-md">
-				<img class="mx-auto h-12 w-auto" src="${url.resourcesPath}/img/YOUR_IMG.svg" alt="" />
+				<img class="mx-auto h-12 w-auto" src="${url.resourcesPath}/img/welcome_icon.jpeg" alt="" />
 				<h1 class="mt-6 text-center text-header2 tracking-header2 font-semibold text-grey">
 					${kcSanitize(msg("loginTitleHtml",(realm.displayNameHtml!'')))?no_esc}
 				</h1>
