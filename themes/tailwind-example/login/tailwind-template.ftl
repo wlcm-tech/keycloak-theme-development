@@ -11,7 +11,7 @@
 			</#list>
 		</#if>
 		<title>${msg("loginTitle",(realm.displayName!''))}</title>
-		<link rel="icon" href="${url.resourcesPath}/img/YOUR_IMG" />
+		<link rel="icon" href="${url.resourcesPath}/img/welcome_icon.jpeg" />
 
 		<link rel="stylesheet" href="${url.resourcesPath}/css/styles.css" />
 	</head>
