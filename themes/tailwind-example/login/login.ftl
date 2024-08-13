@@ -41,7 +41,7 @@
 			<#else>
 				<div>
 					<p class="text-paragraph text-paragraph tracking-paragraph text-grey">
-						${kcSanitize(msg("Your Demo Login",(realm.displayNameHtml!'')))?no_esc}
+						${kcSanitize(msg("Login Template Test",(realm.displayNameHtml!'')))?no_esc}
 					</p>
 				</div>
 			</#if>
